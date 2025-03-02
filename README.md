@@ -73,7 +73,7 @@ Click "Create function"
 Replace the boilerplate coding with the following code snippet and click "Save"
 
 Example Python Code
-
+![1740885131186](https://github.com/user-attachments/assets/25df01b0-36e3-4135-99e3-3d80d6cd8bf9)
 
 
 Test Lambda Function
@@ -92,6 +92,7 @@ Paste the following JSON into the event. The field "operation" dictates what the
 
 Click "Test", and it will execute the test event. You should see the output in the console.
 
+<img width="717" alt="1740885888757" src="https://github.com/user-attachments/assets/24b917a2-531f-47bc-a3eb-bdefc7d6fa3e" />
 
 
 
@@ -190,6 +191,7 @@ To run this from Postman, select "POST" , paste the API invoke url. Then under "
 To run this from terminal using Curl, run the below
 
 $ curl -X POST -d "{\"operation\":\"create\",\"tableName\":\"lambda-apigateway\",\"payload\":{\"Item\":{\"id\":\"1\",\"name\":\"Bob\"}}}" https://$API.execute-api.$REGION.amazonaws.com/prod/DynamoDBManager
+
 To validate that the item is indeed inserted into DynamoDB table, go to Dynamo console, select "lambda-apigateway" table, select "Explore table items" tab, and the newly inserted item should be displayed.
 
 
@@ -210,11 +212,13 @@ Run collection in performance test mode.
 
 Below is the report for the average response time and error rate where the configuration for Lambda function was 128 MB Memory and 10 sec time out.
 
+<img width="549" alt="Screenshot 2025-03-02 at 12 13 23 AM" src="https://github.com/user-attachments/assets/a9af5aa5-d3f7-4a37-8671-daf46ab08cd4" />
 
 
 
 Then I updated the Lambda configuration by increasing 1024 MB Memory and 10 sec time out and now if I run the performance test you can see the average response time is 283 ms (decreased) as per below performance report.
 
+<img width="645" alt="Screenshot 2025-03-02 at 12 14 03 AM" src="https://github.com/user-attachments/assets/4d06f4cb-b0a0-4c2d-82f1-f15bd6e16dfe" />
 
 
 
