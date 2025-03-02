@@ -27,9 +27,11 @@ Other operations (echo, ping), not related to DynamoDB, that you can use for tes
 The request payload you send in the POST request identifies the DynamoDB operation and provides necessary data. For example:
 
 The following is a sample request payload for a DynamoDB create item operation:
+
 ![1740884314110](https://github.com/user-attachments/assets/e5fe1962-689e-4d32-9462-8d92f05fe718)
 
 The following is a sample request payload for a DynamoDB read item operation:
+
 ![1740884314130](https://github.com/user-attachments/assets/1e801c8b-62e4-4cb3-83ae-62fdbce0352d)
 
 We will then use Postman API platform to run performance test on our Lambda and recording the response time based on its memory configuration.
