@@ -73,6 +73,7 @@ Click "Create function"
 Replace the boilerplate coding with the following code snippet and click "Save"
 
 Example Python Code
+
 ![1740885131186](https://github.com/user-attachments/assets/25df01b0-36e3-4135-99e3-3d80d6cd8bf9)
 
 
