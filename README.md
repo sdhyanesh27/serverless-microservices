@@ -2,7 +2,8 @@
 RESTful Microservices with AWS Lambda, API Gateway and DynamoDB
 Let's start with the High Level Reference architecture for RESTful microservices.
 
-https://media.licdn.com/dms/image/v2/D4D12AQGkqFf-IpicjA/article-cover_image-shrink_600_2000/B4DZVUirTqHwAQ-/0/1740880131583?e=1746662400&v=beta&t=JzNieFM703owljcH86WrAOPER-buwN_M26zK2RYEeio![image](https://github.com/user-attachments/assets/ec2a2cf6-cbc6-4456-b908-b2c765253f0c)
+https://media.licdn.com/dms/image/v2/D4D12AQGkqFf-IpicjA/article-cover_image-shrink_600_2000/B4DZVUirTqHwAQ-/0/1740880131583?e=1746662400&v=beta&t=JzNieFM703owljcH86WrAOPER-buwN_M26zK2RYEeio![image](https://github.com/user-attachments/assets/6c9079c6-3cbf-465c-944e-fdac1115a763)
+
 
 https://media.licdn.com/dms/image/v2/D4D12AQFdXKJeE8LYgQ/article-inline_image-shrink_400_744/B4DZVVBQ0hHkAY-/0/1740888149587?e=1746662400&v=beta&t=T_bBh__MiIfdrOdDd9BHQHWryV7WhEuh2NBZ_13SfgU
 
